@@ -1,0 +1,16 @@
+.contact{
+    color: #ffffff;
+    padding: 2rem 0;
+}
+
+.link{
+    padding: 0 1rem;
+}
+
+.scrollToTop{
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 1rem;
+}

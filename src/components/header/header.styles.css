@@ -6,14 +6,21 @@
     margin-bottom: 25px;
     font-weight: bolder;
     background-color: #808080;
+    position: fixed;
+    z-index: 1;
+}
+
+.header-mobile{
+    display: none;
 }
 
 .logo-container{
+    cursor: pointer;
     height: 100%;
     width: 200px;
     padding: 25px;
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     color: #ffffff;
 }
 
@@ -30,4 +37,22 @@
     padding: 10px 15px;
     text-decoration: none;
     color: #ffffff;
+}
+
+@media screen and (max-width: 800px){
+    .header-desktop{
+        display: none;
+    }
+    .header-mobile{
+        display: unset;
+    }
+    .logo-container{
+        padding: 22px 0;
+    }
+    .haburger{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 1rem;
+    }
 }

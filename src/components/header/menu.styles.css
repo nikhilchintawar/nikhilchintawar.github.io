@@ -1,0 +1,16 @@
+.mobile-options{
+   position: absolute;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   background-color: #ffffff;
+   top: 70px;
+   z-index: 5;
+}
+
+.mobile-option{
+    cursor: pointer;
+    text-align: left;
+    padding: 0.7rem;
+    z-index: 7;
+}

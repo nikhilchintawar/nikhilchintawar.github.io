@@ -1,0 +1,30 @@
+.about-me{
+    width: 100%;
+    height: 100vh;
+    color: #ffffff;
+    display: grid;
+    place-items: center;
+}
+
+.about-me > .about-me-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-image{
+    border-radius: 50%;
+}
+.description{
+    width: 45%;
+}
+
+@media screen and (max-width: 800px){
+    .about-me{
+        padding: 2rem 0;
+    }
+    .description{
+        width: 80%;
+    }
+}

@@ -1,0 +1,16 @@
+.card{
+    background-color: #DAE0E2;
+    border-radius: 1rem;
+    border: 1px solid grey;
+    cursor: pointer;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+    padding: 1rem;
+    margin: 3rem;
+    min-height: 20rem;
+}
+
+.infoContainer{
+    text-align: left;
+}
