@@ -1,21 +1,24 @@
-import React from 'react';
+import React, { lazy, Suspense } from 'react';
 
 
 import './App.css';
 import Header from './components/header/Header';
 import Home from './components/home/Home';
-import AboutMe from './components/about-me/AboutMe';
-import Background from './components/background/Background';
-import ParallaxEffect from './parallax/ParallaxEffect';
-import Currently from './components/currently/Currently';
-import Experience from './components/experience/Experience';
-import Contact from './components/contact/Contact';
+import Spinner from './components/spinner/Spinner';
+
+const AboutMe = lazy(() => import('./components/about-me/AboutMe'));
+const Background = lazy(() => import('./components/background/Background'));
+const ParallaxEffect = lazy(() => import('./parallax/ParallaxEffect'));
+const Currently = lazy(() => import('./components/currently/Currently'));
+const Experience = lazy(() => import('./components/experience/Experience'));
+const Contact = lazy(() => import('./components/contact/Contact'));
 
 
 function App() {
   return (
     <div className="App">
       <Header />
+      <Suspense fallback={<Spinner />}>
       <Home id="homeLink" />
 
       <ParallaxEffect>
@@ -33,7 +36,7 @@ function App() {
       <ParallaxEffect>
         <Contact id="contactLink" />
       </ParallaxEffect>
-      
+      </Suspense>
     </div>
   );
 }

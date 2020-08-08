@@ -6,8 +6,10 @@ export const education = [
 
 export const reactProject1 = [
     "This react project I created to learn the various react concepts",
-    "I implemented this project using react and redux",
     "This is an ecommernce website which sells the cloth",
+    "I implemented this project using react and redux",
+    "The shop data is stored in the firebase.",
+    "Also authentication is done using the firebase.",
     "The payment gateway is implemented using stripe.",
     "checkout the code and website here:"
 ]
