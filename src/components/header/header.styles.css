@@ -39,6 +39,11 @@
     color: #ffffff;
 }
 
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
 .option:hover,
 .option:active{
     border-bottom: 2px solid #ffffff;

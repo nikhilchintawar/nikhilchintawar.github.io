@@ -44,6 +44,19 @@ a:hover{
     filter: brightness(110%);
 }
 
+.header{
+    top: 0;
+}
+
+.title{
+    padding: 3rem;
+}
+
+.options{
+    cursor: pointer;
+    color: #ffffff;
+}
+
 @media screen and (max-width: 800px){
     .project{
         display: grid;

@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import Axios from 'axios';
 import {v4 as uuidv4} from "uuid";
+import { Link } from 'react-router-dom';
 
 import "./project.styles.css";
 
-const Project = ({id}) => {
+const Project = () => {
     const [githubData, setGithubData] = useState([])
 
     const fetchGithubRepos = async() =>{
@@ -28,8 +29,12 @@ const Project = ({id}) => {
     },[])
 
     return (
-        <div id={id}>
-            <h2>PROJECTS</h2>
+        <div>
+          <Link to='/' className="header">
+              <span className="logo-container">Nikhil Chintawar</span>
+              <span className="options">Homepage</span>
+          </Link>
+            <h2 className="title">PROJECTS</h2>
             <div className="project">
           {
               githubData.map(data => {
@@ -38,8 +43,8 @@ const Project = ({id}) => {
                         <h3 className="github-project-title">{data.name}</h3>
                         <p className="github-project-description">{data.description}</p>
                         <div className="github-project-link">
-                            <a href={data.html_url} target="_blank" rel="noopener noreferrer"><span className="github-project-source">SOURCE CODE</span></a>
-                            <a href={data.homepage} target="_blank" rel="noopener noreferrer"><span className="github-project-source">SEE LIVE</span></a>
+                            <Link to={data.html_url} target="_blank" rel="noopener noreferrer"><span className="github-project-source">SOURCE CODE</span></Link>
+                            <Link to={data.homepage} target="_blank" rel="noopener noreferrer"><span className="github-project-source">SEE LIVE</span></Link>
                         </div>
                     </div>
                       

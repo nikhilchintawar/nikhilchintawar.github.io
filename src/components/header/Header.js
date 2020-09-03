@@ -69,16 +69,8 @@ const Header = () => {
                     delay={200} >
                     EXPERIENCE
                 </Link>
-                <Link 
-                    className="option" 
-                    activeClass="active" 
-                    spy={true} 
-                    smooth={true} 
-                    to="projectLink"
-                    duration={1000}
-                    delay={200} >
-                    PROJECTS
-                </Link>
+                {/* link goes to another page */}
+                <a href="/projects" className='option'>PROJECTS</a>
                 <Link 
                     className="option"
                     activeClass="active" 
