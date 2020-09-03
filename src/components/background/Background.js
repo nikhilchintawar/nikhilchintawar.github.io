@@ -2,8 +2,8 @@ import React from 'react';
 import {FaBookReader} from "react-icons/fa";
 
 import Card from '../card/Card';
-import { education } from '../card/info';
 import "./background.styles.css";
+import {education} from "./backgroundInfo";
 
 const Background = ({id}) => {
     return (

@@ -4,6 +4,7 @@ import {FaLaptopCode, FaGithub} from "react-icons/fa";
 import "./experience.styles.css";
 import Card from '../card/Card';
 import { reactProject1, reactProject2 } from '../card/info';
+import Project from '../projects/Project';
 
 
 const Experience = ({id}) => {

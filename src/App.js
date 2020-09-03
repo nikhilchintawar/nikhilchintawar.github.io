@@ -5,6 +5,7 @@ import './App.css';
 import Header from './components/header/Header';
 import Home from './components/home/Home';
 import Spinner from './components/spinner/Spinner';
+import Project from './components/projects/Project';
 
 const AboutMe = lazy(() => import('./components/about-me/AboutMe'));
 const Background = lazy(() => import('./components/background/Background'));
@@ -18,6 +19,7 @@ function App() {
   return (
     <div className="App">
       <Header />
+
       <Suspense fallback={<Spinner />}>
       <Home id="homeLink" />
 
@@ -26,16 +28,19 @@ function App() {
       </ParallaxEffect>
 
       <Background id="backgroundLink" />
-      
+
       <ParallaxEffect>
         <Currently />
       </ParallaxEffect>
 
       <Experience id="experienceLink" />
 
+      <Project id="projectLink" />
+
       <ParallaxEffect>
         <Contact id="contactLink" />
       </ParallaxEffect>
+
       </Suspense>
     </div>
   );

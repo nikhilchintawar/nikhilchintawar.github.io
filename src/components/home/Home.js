@@ -20,13 +20,13 @@ const Home = ({id}) => {
                     />
                 </span>
                 <span className="links">
-                    <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/nikhilchintawar/">
+                    <a target="_blank" rel="noopener noreferrer" title="Linkedin" href="https://www.linkedin.com/in/nikhilchintawar/">
                         <FaLinkedin />
                     </a>
-                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/nikhilchintawar">
+                    <a target="_blank" rel="noopener noreferrer" title="Github" href="https://github.com/nikhilchintawar">
                         <FaGithub />
                     </a>
-                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/nikhilchintawar">
+                    <a target="_blank" rel="noopener noreferrer" title="Twitter" href="https://twitter.com/itsChintawar">
                         <FaTwitterSquare />
                     </a>
                 </span>

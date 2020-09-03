@@ -4,11 +4,10 @@
     border: 1px solid grey;
     cursor: pointer;
     backface-visibility: hidden;
-    transform: translateZ(0);
-    transition: transform 0.25s ease-out;
     padding: 1rem;
     margin: 3rem;
     min-height: 20rem;
+    box-shadow: 6px 6px 6px 0 rgba(0, 0, 0, 0.2);
 }
 
 .infoContainer{

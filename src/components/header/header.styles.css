@@ -39,6 +39,11 @@
     color: #ffffff;
 }
 
+.option:hover,
+.option:active{
+    border-bottom: 2px solid #ffffff;
+}
+
 @media screen and (max-width: 800px){
     .header-desktop{
         display: none;
@@ -54,5 +59,6 @@
         flex-direction: column;
         justify-content: center;
         padding: 1rem;
+        cursor: pointer;
     }
 }

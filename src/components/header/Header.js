@@ -47,7 +47,7 @@ const Header = () => {
                     to="aboutMeLink"
                     duration={1000}
                     delay={200} >
-                    ABOUT ME
+                    ABOUT 
                 </Link>
                 <Link 
                     className="option" 
@@ -68,6 +68,16 @@ const Header = () => {
                     duration={1000}
                     delay={200} >
                     EXPERIENCE
+                </Link>
+                <Link 
+                    className="option" 
+                    activeClass="active" 
+                    spy={true} 
+                    smooth={true} 
+                    to="projectLink"
+                    duration={1000}
+                    delay={200} >
+                    PROJECTS
                 </Link>
                 <Link 
                     className="option"

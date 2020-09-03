@@ -24,7 +24,7 @@ const Menu = () => {
                     to="aboutMeLink"
                     duration={1000}
                     delay={200} >
-                    ABOUT ME
+                    ABOUT
                 </Link>
                 <Link 
                     className="mobile-option" 
@@ -45,6 +45,16 @@ const Menu = () => {
                     duration={1000}
                     delay={200} >
                     EXPERIENCE
+                </Link>
+                <Link 
+                    className="mobile-option" 
+                    activeClass="active" 
+                    spy={true} 
+                    smooth={true} 
+                    to="projectLink"
+                    duration={1000}
+                    delay={200} >
+                    PROJECTS
                 </Link>
                 <Link 
                     className="mobile-option"

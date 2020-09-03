@@ -17,13 +17,13 @@ const Contact = ({id}) => {
             <p><TiLocation /> Nanded, India</p>
             <p><MdEmail /> chintawarnikhil88@gmail.com</p>
             <span className="links">
-                    <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/nikhilchintawar/" className="link">
+                    <a target="_blank" rel="noopener noreferrer" title="Linkedin" href="https://www.linkedin.com/in/nikhilchintawar/" className="link">
                         <FaLinkedin size={30} color="#ffffff" />
                     </a>
-                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/nikhilchintawar" className="link" >
+                    <a target="_blank" rel="noopener noreferrer" title="Github" href="https://github.com/nikhilchintawar" className="link" >
                         <FaGithub size={30} color="#ffffff" />
                     </a>
-                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/nikhilchintawar" className="link" >
+                    <a target="_blank" rel="noopener noreferrer" title="Twitter" href="https://twitter.com/itsChintawar" className="link" >
                         <FaTwitterSquare size={30} color="#ffffff" />
                     </a>
                 </span>
