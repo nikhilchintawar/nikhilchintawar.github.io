@@ -1,2 +1,0 @@
-.experience{display:grid;grid-template-columns:1fr 1fr}@media screen and (max-width:800px){.experience{display:flex;flex-direction:column;justify-content:center;align-items:center}.card{width:80%}}.card{background-color:#dae0e2;border-radius:1rem;border:1px solid grey;cursor:pointer;-webkit-backface-visibility:hidden;backface-visibility:hidden;padding:1rem;margin:3rem;min-height:20rem;box-shadow:6px 6px 6px 0 rgba(0,0,0,.2)}.infoContainer{text-align:left}
-/*# sourceMappingURL=4.ff0cbb59.chunk.css.map */
