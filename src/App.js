@@ -5,13 +5,13 @@ import './App.css';
 import Header from './components/header/Header';
 import Home from './components/home/Home';
 import Spinner from './components/spinner/Spinner';
-import Project from './components/projects/Project';
 
 const AboutMe = lazy(() => import('./components/about-me/AboutMe'));
 const Background = lazy(() => import('./components/background/Background'));
 const ParallaxEffect = lazy(() => import('./parallax/ParallaxEffect'));
 const Currently = lazy(() => import('./components/currently/Currently'));
 const Experience = lazy(() => import('./components/experience/Experience'));
+const Project = lazy(() => import('./components/projects/Project'));
 const Contact = lazy(() => import('./components/contact/Contact'));
 
 
