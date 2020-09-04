@@ -8,7 +8,9 @@
 }
 
 .github-project-card{
-    background-color: #DAE0E2;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    color: #ffffff;
     padding: 1rem;
     border-radius: 0.5rem;
     box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.5);
@@ -27,10 +29,6 @@ a{
     text-decoration: none;
 }
 
-a:hover{
-    transform: translate(0, 0.2rem);
-    box-shadow: 0 0.1rem rgba(255, 255, 255, 0.65);
-}
 
 .github-project-source{
     background-color: orange;
@@ -45,11 +43,12 @@ a:hover{
 }
 
 .header{
+    position: fixed;
     top: 0;
 }
 
 .title{
-    padding: 3rem;
+    margin-top: 5rem;
 }
 
 .options{

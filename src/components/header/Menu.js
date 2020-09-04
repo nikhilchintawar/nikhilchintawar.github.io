@@ -1,5 +1,7 @@
 import React from "react";
 import {Link} from "react-scroll";
+import {Link as ReactRouterLink} from "react-router-dom";
+
 import "./menu.styles.css";
 
 const Menu = () => {
@@ -47,7 +49,11 @@ const Menu = () => {
                     EXPERIENCE
                 </Link>
                 {/* link goes to another page */}
-                <a href="/projects" className='mobile-option'>PROJECTS</a>
+                <ReactRouterLink 
+                    to="/projects" 
+                    className='mobile-option'>
+                        PROJECTS
+                </ReactRouterLink>
                 <Link 
                     className="mobile-option"
                     activeClass="active" 

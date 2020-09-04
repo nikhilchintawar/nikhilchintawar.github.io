@@ -1,5 +1,6 @@
 import React from 'react';
-import {FaLaptopCode, FaGithub} from "react-icons/fa";
+import {FaLaptopCode, FaGithub, FaArrowCircleRight} from "react-icons/fa";
+import { Link } from 'react-router-dom';
 
 import "./experience.styles.css";
 import Card from '../card/Card';
@@ -25,7 +26,12 @@ const Experience = ({id}) => {
                     linkText={<FaGithub size={50} />}
                 />
             </div>
-
+            <div className="project-link">
+                <Link to='/projects' className="link-text">
+                    checkout all projects source code and live website here. 
+                    <span className="circle-icon"><FaArrowCircleRight size={25} /></span> 
+                </Link>
+            </div>
         </div>
     );
 };

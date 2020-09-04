@@ -21,8 +21,6 @@ function App() {
   return (
     <div className="App">
     <Switch>
-      <Route path="/projects" component={Project} />
-
       <Route exact path='/'>
         <Header />
           <Suspense fallback={<Spinner />}>
@@ -40,14 +38,14 @@ function App() {
 
           <Experience id="experienceLink" />
 
-          {/* <Project id="projectLink" /> */}
-
           <ParallaxEffect>
             <Contact id="contactLink" />
           </ParallaxEffect>
 
           </Suspense>
         </Route>
+
+        <Route path="/projects" component={Project} />
       </Switch>
     </div>
   );

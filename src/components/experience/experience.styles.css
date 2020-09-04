@@ -3,6 +3,27 @@
     grid-template-columns: 1fr 1fr;
 }
 
+.project-link{
+    box-sizing: border-box;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    padding: 1rem;
+    bottom: 2px;
+}
+
+.link-text{
+    display: grid;
+    place-items: center;
+    color: #ffffff;
+}
+.circle-icon{
+    padding: 0.5rem;
+}
+
+.circle-icon:hover{
+    transform: translateX(0.3rem);
+}
+
 @media screen and (max-width: 800px){
     .experience{
         display: flex;

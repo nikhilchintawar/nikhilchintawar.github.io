@@ -11,8 +11,13 @@
 
 .home-content{
     width: 100vw;
-    padding: 13rem 0;
+    height: 100vh;
+    background-size: cover;
     background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 h1{

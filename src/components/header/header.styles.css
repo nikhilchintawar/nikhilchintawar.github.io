@@ -3,11 +3,10 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 25px;
     font-weight: bolder;
     background-color: #808080;
     position: fixed;
-    z-index: 1;
+    z-index: 10;
 }
 
 .header-mobile{
@@ -39,10 +38,6 @@
     color: #ffffff;
 }
 
-a{
-    text-decoration: none;
-    color: #000000;
-}
 
 .option:hover,
 .option:active{

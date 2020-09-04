@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import {GiHamburgerMenu} from "react-icons/gi";
 import {RiCloseLine} from "react-icons/ri";
 import {Link} from "react-scroll";
+import {Link as ReactRouterLink} from "react-router-dom";
 
 
 import "./header.styles.css";
@@ -70,7 +71,11 @@ const Header = () => {
                     EXPERIENCE
                 </Link>
                 {/* link goes to another page */}
-                <a href="/projects" className='option'>PROJECTS</a>
+                <ReactRouterLink 
+                    to="/projects" 
+                    className='option'>
+                        PROJECTS
+                </ReactRouterLink>
                 <Link 
                     className="option"
                     activeClass="active" 
