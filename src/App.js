@@ -1,11 +1,11 @@
 import React, { lazy, Suspense } from 'react';
+import { Route, Switch } from 'react-router-dom';
 
 
 import './App.css';
 import Header from './components/header/Header';
 import Home from './components/home/Home';
 import Spinner from './components/spinner/Spinner';
-import { Route, Switch } from 'react-router-dom';
 import Project from './components/projects/Project';
 
 
@@ -24,27 +24,25 @@ function App() {
       <Route exact path='/'>
         <Header />
           <Suspense fallback={<Spinner />}>
-          <Home id="homeLink" />
+            <Home id="homeLink" />
 
-          <ParallaxEffect>
-            <AboutMe id="aboutMeLink" />
-          </ParallaxEffect>
+            <ParallaxEffect>
+              <AboutMe id="aboutMeLink" />
+            </ParallaxEffect>
 
-          <Background id="backgroundLink" />
+            <Background id="backgroundLink" />
 
-          <ParallaxEffect>
-            <Currently />
-          </ParallaxEffect>
+            <ParallaxEffect>
+              <Currently />
+            </ParallaxEffect>
 
-          <Experience id="experienceLink" />
+            <Experience id="experienceLink" />
 
-          <ParallaxEffect>
-            <Contact id="contactLink" />
-          </ParallaxEffect>
-
+            <ParallaxEffect>
+              <Contact id="contactLink" />
+            </ParallaxEffect>
           </Suspense>
         </Route>
-
         <Route path="/projects" component={Project} />
       </Switch>
     </div>

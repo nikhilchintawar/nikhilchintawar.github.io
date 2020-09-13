@@ -13,7 +13,7 @@ const Home = ({id}) => {
                 <span className="subtitle">
                     <Typewriter 
                         options={{
-                            strings: ["Web Developer", "Computer Science Student"],
+                            strings: ["Full Stack Developer", "Computer Science Student"],
                             autoStart: true,
                             loop: true
                         }}
