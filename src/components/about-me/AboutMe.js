@@ -12,7 +12,7 @@ const AboutMe = ({id}) => {
                 <p className="description">Hi I'm Nikhil Chintawar, and I am currently pursuing Computer Science And Engineering at 
                     Shri Guru Gobind Singh Ji Institute Of Engineering & Technology, Vishnupuri, Nanded
                     I believe in learning through practicing. also I am completely book nut and loves to read books 
-                and also myself. I am from village and I love my village also I deeply believe in Indian culture.</p>
+                and also myself.</p>
                 </div>
         </div>
     );

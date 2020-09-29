@@ -3,6 +3,7 @@ import {FaLinkedin, FaGithub, FaTwitterSquare} from "react-icons/fa";
 import Typewriter from "typewriter-effect";
 
 import "./home.styles.css"
+import { Link } from 'react-router-dom';
 
 const Home = ({id}) => {
 
@@ -19,6 +20,7 @@ const Home = ({id}) => {
                         }}
                     />
                 </span>
+                <a className="resume-link" href="https://drive.google.com/file/d/1jxrnqMhtn1qvU4iH0jQ8Jn_VlR2MFa_Q/view" target="_blank" rel="noopener noreferrer">RESUME</a>
                 <span className="links">
                     <a target="_blank" rel="noopener noreferrer" title="Linkedin" href="https://www.linkedin.com/in/nikhilchintawar/">
                         <FaLinkedin />
