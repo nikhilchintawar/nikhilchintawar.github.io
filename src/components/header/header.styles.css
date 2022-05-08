@@ -4,7 +4,6 @@
     display: flex;
     justify-content: space-between;
     font-weight: bolder;
-    background-color: #808080;
     position: fixed;
     z-index: 10;
 }

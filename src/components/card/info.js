@@ -1,18 +1,17 @@
 export const reactProject1 = [
-    "This react project I created to learn the various react concepts",
-    "This is an ecommernce website which sells the cloth",
-    "I implemented this project using react and redux",
-    "The shop data is stored in the firebase.",
-    "Also authentication is done using the firebase.",
-    "The payment gateway is implemented using stripe.",
-    "checkout the code and website here:"
-]
+  "Started react version of the project from scratch",
+  "Did the setup for development",
+  "80% of the frontend created by me & deployed in production",
+  "Interacted with design & marketing team for improvements in design & flow",
+  "Created internal library of common components & documented using storybook",
+  "Checkout website here",
+];
 
 export const reactProject2 = [
-    "This is the full stack project which i implemented using the mongoDB, Express, React, Node (MERN) stack",
-    "This is shop which helps farmers to sell their vegetables and grains directly to the customer.",
-    "In this app farmer can register as an admin and sell his own products to customers.",
-    "This app is completely implemented using the hooks",
-    "The payment gateway is implemented using stripe",
-    "checkout the code and website here:"
-]
+  "Involved in the product discussion from the ideation phase",
+  "90% of the frontend created by me",
+  "Created deployment scripts & deployed in production",
+  "Created yarn monorepo workspace for better code sharing",
+  "Created internal library of common components & documented using storybook",
+  "Checkout website here",
+];
